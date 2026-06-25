@@ -3,57 +3,233 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapa miejscowości</title>
+  <title>Cesium Sandbox</title>
 
-  <!-- Twój plik CSS -->
-  <link rel="stylesheet" href="app.css">
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.119/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
 
-  <!-- Cesium: skrypt i style -->
-  <script src="./libs/cesium/Cesium.js"></script>
-  <link href="./libs/cesium/Widgets/widgets.css" rel="stylesheet">
-
-  <!-- Pannellum: style (CSS) -->
   <link rel="stylesheet" href="https://unpkg.com/pannellum/build/pannellum.css">
-</head>
-<body>
 
-  <!-- Główny kontener na mapę Cesium -->
+  <style>
+    html,
+    body,
+    #cesiumContainer {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    #tilesetStatus {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 10001;
+      max-width: 380px;
+      padding: 10px 12px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid #222;
+      border-radius: 4px;
+      color: #111;
+      font-size: 13px;
+      line-height: 1.35;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    #tilesetStatus strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    #tilesetStatus button {
+      margin-top: 8px;
+      padding: 5px 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
   <div id="cesiumContainer"></div>
 
-  <!-- Modal / kontener do wyświetlania panoram Pannellum -->
-  <div id="pannellumModal" 
-       style="display: none; 
-              position: absolute; 
-              top: 0; 
-              left: 0; 
-              width: 100%; 
-              height: 100%; 
-              background: rgba(0,0,0,0.8); 
+  <div id="pannellumModal"
+       style="display: none;
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background: rgba(0,0,0,0.8);
               z-index: 9999;">
 
-    <!-- Przycisk zamykający modal -->
-    <button id="closePannellum" 
-            style="position: absolute; 
-                   top: 10px; 
-                   right: 10px; 
+    <button id="closePannellum"
+            style="position: absolute;
+                   top: 10px;
+                   right: 10px;
                    z-index: 10000;">
       Zamknij
     </button>
 
-    <!-- Kontener, w którym biblioteka Pannellum wyrenderuje panoramę -->
-    <div id="panoramaContainer" 
-         style="width: 50%; 
-                height: 50%; 
-                margin: 5% auto; 
+    <div id="panoramaContainer"
+         style="width: 50%;
+                height: 50%;
+                margin: 5% auto;
                 border: 2px solid white;">
     </div>
-
   </div>
 
-  <!-- Pannellum: skrypt (JS) -->
+  <div id="tilesetStatus">
+    <strong>Local 3D Tiles</strong>
+    Waiting for Cesium viewer...
+  </div>
+
   <script src="https://unpkg.com/pannellum/build/pannellum.js"></script>
 
-  <!-- Twój główny skrypt JS z logiką Cesium i obsługą Pannellum -->
+  <!-- Existing project logic -->
   <script src="app.js"></script>
+
+  <!-- Local 3D Tiles loader for sandbox testing -->
+  <script>
+    (function () {
+      const LOCAL_TILESET_URL = "./dane/3D/3dtiles-cesium-07/tileset.json";
+
+      const START_LAT = 57.444606;
+      const START_LON = 12.079962;
+      const START_HEIGHT = 650;
+
+      let localTileset = null;
+
+      function getStatusPanel() {
+        return document.getElementById("tilesetStatus");
+      }
+
+      function setStatus(message, isError = false) {
+        const panel = getStatusPanel();
+        if (!panel) return;
+
+        panel.style.borderColor = isError ? "#b00020" : "#222";
+        panel.innerHTML = `
+          <strong>Local 3D Tiles</strong>
+          ${message}
+        `;
+      }
+
+      function hasCesiumViewer() {
+        try {
+          return (
+            typeof Cesium !== "undefined" &&
+            typeof viewer !== "undefined" &&
+            viewer &&
+            viewer.scene &&
+            viewer.scene.primitives
+          );
+        } catch (error) {
+          return false;
+        }
+      }
+
+      function flyToStartLocation(duration = 0) {
+        if (!hasCesiumViewer()) return;
+
+        viewer.camera.flyTo({
+          destination: Cesium.Cartesian3.fromDegrees(
+            START_LON,
+            START_LAT,
+            START_HEIGHT
+          ),
+          orientation: {
+            heading: Cesium.Math.toRadians(0),
+            pitch: Cesium.Math.toRadians(-35),
+            roll: 0
+          },
+          duration: duration
+        });
+      }
+
+      async function loadLocalTileset() {
+        if (!hasCesiumViewer()) {
+          setStatus("Cesium viewer is not ready yet.", true);
+          return;
+        }
+
+        try {
+          setStatus(`Loading:<br><code>${LOCAL_TILESET_URL}</code>`);
+
+          localTileset = await Cesium.Cesium3DTileset.fromUrl(LOCAL_TILESET_URL);
+          localTileset.show = true;
+          localTileset.shadows = Cesium.ShadowMode.ENABLED;
+
+          viewer.scene.primitives.add(localTileset);
+
+          window.localTileset = localTileset;
+
+          if (localTileset.readyPromise) {
+            await localTileset.readyPromise;
+          }
+
+          flyToStartLocation(0);
+
+          setStatus(`
+            Loaded:<br>
+            <code>${LOCAL_TILESET_URL}</code><br>
+            Camera start:<br>
+            ${START_LAT}, ${START_LON}
+            <br>
+            <button id="zoomToLocalTileset">Zoom to local 3D Tiles</button>
+          `);
+
+          const zoomButton = document.getElementById("zoomToLocalTileset");
+          if (zoomButton) {
+            zoomButton.addEventListener("click", function () {
+              viewer.zoomTo(localTileset);
+            });
+          }
+
+          console.log("Local 3D Tiles loaded:", LOCAL_TILESET_URL);
+        } catch (error) {
+          console.error("Could not load local 3D Tiles:", error);
+
+          setStatus(`
+            Could not load:<br>
+            <code>${LOCAL_TILESET_URL}</code><br><br>
+            Check that you started a local HTTP server from the repository root,
+            not by double-clicking index.html.
+          `, true);
+
+          flyToStartLocation(0);
+        }
+      }
+
+      function waitForAppInitialization(attempt = 0) {
+        const maxAttempts = 120;
+
+        if (hasCesiumViewer() && document.getElementById("legend")) {
+          setStatus("Cesium viewer ready. Loading local 3D Tiles...");
+          loadLocalTileset();
+          return;
+        }
+
+        if (attempt >= maxAttempts) {
+          if (hasCesiumViewer()) {
+            setStatus("Viewer found, but old app initialization may be incomplete. Loading local 3D Tiles anyway...");
+            loadLocalTileset();
+          } else {
+            setStatus("Cesium viewer was not created. Check app.js and browser console.", true);
+          }
+          return;
+        }
+
+        window.setTimeout(function () {
+          waitForAppInitialization(attempt + 1);
+        }, 250);
+      }
+
+      window.addEventListener("DOMContentLoaded", function () {
+        waitForAppInitialization();
+      });
+    })();
+  </script>
 </body>
 </html>
