@@ -1,0 +1,30 @@
+# Local / generated / heavy 3D Tiles data
+# The 3D folder may contain very large tilesets and must not be committed.
+3D/**
+!3D/
+!3D/.gitkeep
+!3D/README.md
+
+# Common local/dev files
+.DS_Store
+Thumbs.db
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Temporary files
+TEMP/
+tmp/
+temp/
+
+# Archives and backups
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.bak
+*.backup
+/dane/3D
