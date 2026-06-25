@@ -1,0 +1,719 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-10T06:59:44Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/448786742",
+        "leisure": "pitch",
+        "location": "outdoor",
+        "name": "Släggaråsbanan",
+        "sport": "motor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0298384,
+          56.735894
+        ]
+      },
+      "id": "node/448786742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2422206692",
+        "fireplace": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.182066,
+          56.7673663
+        ]
+      },
+      "id": "node/2422206692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324682089",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2191988,
+          56.7255443
+        ]
+      },
+      "id": "node/4324682089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324682137",
+        "amenity": "shelter",
+        "description": "Stort gömsle, avdelning med 3 kojplatser för övernattning, observationsrum med >20 sittplatser med vy ut över myren och en plats där orrarna ibland spelar. Gömslet kan inte förbokas.",
+        "leisure": "bird_hide",
+        "reservation": "no",
+        "shelter": "yes",
+        "shelter_type": "wildlife_hide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2149984,
+          56.7296703
+        ]
+      },
+      "id": "node/4324682137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4665273759",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0545141,
+          56.7068257
+        ]
+      },
+      "id": "node/4665273759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6928693517",
+        "amenity": "public_bath",
+        "bath:type": "lake",
+        "leisure": "bathing_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1413004,
+          56.7177348
+        ]
+      },
+      "id": "node/6928693517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949399013",
+        "covered": "no",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1353643,
+          56.7068224
+        ]
+      },
+      "id": "node/8949399013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672257",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1415043,
+          56.7174751
+        ]
+      },
+      "id": "node/8972672257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672260",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1415832,
+          56.7175072
+        ]
+      },
+      "id": "node/8972672260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564982",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0261861,
+          56.7101137
+        ]
+      },
+      "id": "node/9846564982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564985",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0211116,
+          56.709621
+        ]
+      },
+      "id": "node/9846564985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9909442127",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.145607,
+          56.7240248
+        ]
+      },
+      "id": "node/9909442127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914755711",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1226908,
+          56.7190633
+        ]
+      },
+      "id": "node/9914755711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914755712",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1225654,
+          56.7189938
+        ]
+      },
+      "id": "node/9914755712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914755713",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1225276,
+          56.719053
+        ]
+      },
+      "id": "node/9914755713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914755714",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.122775,
+          56.7189389
+        ]
+      },
+      "id": "node/9914755714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914755715",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1226359,
+          56.7190337
+        ]
+      },
+      "id": "node/9914755715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945257354",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1806431,
+          56.7475393
+        ]
+      },
+      "id": "node/9945257354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10639345799",
+        "leisure": "slipway"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1433104,
+          56.721933
+        ]
+      },
+      "id": "node/10639345799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10639345802",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1436505,
+          56.721429
+        ]
+      },
+      "id": "node/10639345802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10639345803",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1435841,
+          56.7221616
+        ]
+      },
+      "id": "node/10639345803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10639345804",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1439926,
+          56.7219397
+        ]
+      },
+      "id": "node/10639345804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673640326",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0231181,
+          56.7071808
+        ]
+      },
+      "id": "node/10673640326"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673640327",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0232761,
+          56.70741
+        ]
+      },
+      "id": "node/10673640327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673640328",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0229169,
+          56.7069737
+        ]
+      },
+      "id": "node/10673640328"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673640329",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0242198,
+          56.7063071
+        ]
+      },
+      "id": "node/10673640329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673640330",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0242068,
+          56.7063486
+        ]
+      },
+      "id": "node/10673640330"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045782644",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2295072,
+          56.7151383
+        ]
+      },
+      "id": "node/11045782644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045782645",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2301933,
+          56.7152437
+        ]
+      },
+      "id": "node/11045782645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045782646",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2293049,
+          56.7152796
+        ]
+      },
+      "id": "node/11045782646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045827029",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1415839,
+          56.7174622
+        ]
+      },
+      "id": "node/11045827029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045847613",
+        "contact:website": "https://flyta.nu/bastu.html",
+        "leisure": "sauna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1806493,
+          56.7657011
+        ]
+      },
+      "id": "node/11045847613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045847614",
+        "contact:website": "https://flyta.nu/bastu.html",
+        "leisure": "sauna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1410235,
+          56.7184036
+        ]
+      },
+      "id": "node/11045847614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11046199560",
+        "leisure": "park",
+        "museum": "art;craft;architecture",
+        "name": "Sigfrid Ericson Museum - Vargaslätten",
+        "subject": "Sigfrid Ericson",
+        "tourism": "museum",
+        "website": "https://www.vargaslatten.se/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1436074,
+          56.7170706
+        ]
+      },
+      "id": "node/11046199560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11047728373",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1484991,
+          56.6930051
+        ]
+      },
+      "id": "node/11047728373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152754290",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0992487,
+          56.7053472
+        ]
+      },
+      "id": "node/11152754290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152763996",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0950572,
+          56.7041449
+        ]
+      },
+      "id": "node/11152763996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152763997",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1002961,
+          56.7047237
+        ]
+      },
+      "id": "node/11152763997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11158535821",
+        "grate": "yes",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.104893,
+          56.7061575
+        ]
+      },
+      "id": "node/11158535821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11158545534",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0939073,
+          56.7055897
+        ]
+      },
+      "id": "node/11158545534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11158545535",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0951387,
+          56.7057405
+        ]
+      },
+      "id": "node/11158545535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11172384149",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1475526,
+          56.726087
+        ]
+      },
+      "id": "node/11172384149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755064258",
+        "amenity": "shelter",
+        "leisure": "bird_hide",
+        "shelter_type": "wildlife_hide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2681778,
+          56.704287
+        ]
+      },
+      "id": "node/11755064258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755165662",
+        "leisure": "picnic_table"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2582826,
+          56.7068799
+        ]
+      },
+      "id": "node/11755165662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325625728",
+        "leisure": "firepit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2115406,
+          56.7085479
+        ]
+      },
+      "id": "node/12325625728"
+    }
+  ]
+}

@@ -1,0 +1,2269 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-01-10T06:55:39Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/263914228",
+        "amenity": "fuel",
+        "branch": "Simlångsdalen",
+        "brand": "Qstar",
+        "name": "Qstar",
+        "opening_hours": "24/7",
+        "operator": "Qstar",
+        "payment:cash": "no",
+        "website": "https://www.qstar.se/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1209638,
+          56.7190089
+        ]
+      },
+      "id": "node/263914228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/349259110",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0243646,
+          56.7055808
+        ]
+      },
+      "id": "node/349259110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/349259111",
+        "amenity": "parking",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0245545,
+          56.70603
+        ]
+      },
+      "id": "node/349259111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/687169224",
+        "amenity": "parking",
+        "name": "Danska fallen",
+        "parking": "street_side"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.123676,
+          56.7092395
+        ]
+      },
+      "id": "node/687169224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2422206687",
+        "access": "customers",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1830329,
+          56.7673269
+        ]
+      },
+      "id": "node/2422206687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2422206691",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1830561,
+          56.7673483
+        ]
+      },
+      "id": "node/2422206691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2538128532",
+        "addr:city": "Simlångsdalen",
+        "addr:country": "SE",
+        "addr:housenumber": "42",
+        "addr:postcode": "310 38",
+        "addr:street": "Brearedsvägen",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Dalens Pizzeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1282354,
+          56.7203105
+        ]
+      },
+      "id": "node/2538128532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3033543640",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1530963,
+          56.7223322
+        ]
+      },
+      "id": "node/3033543640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324681113",
+        "amenity": "parking",
+        "smoothness": "intermediate",
+        "surface": "gravel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2037546,
+          56.7148737
+        ]
+      },
+      "id": "node/4324681113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324681188",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "no",
+        "park_ride": "no",
+        "smoothness": "bad",
+        "supervised": "no",
+        "surface": "gravel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2190486,
+          56.7255207
+        ]
+      },
+      "id": "node/4324681188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324682137",
+        "amenity": "shelter",
+        "description": "Stort gömsle, avdelning med 3 kojplatser för övernattning, observationsrum med >20 sittplatser med vy ut över myren och en plats där orrarna ibland spelar. Gömslet kan inte förbokas.",
+        "leisure": "bird_hide",
+        "reservation": "no",
+        "shelter": "yes",
+        "shelter_type": "wildlife_hide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2149984,
+          56.7296703
+        ]
+      },
+      "id": "node/4324682137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4665273936",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1811885,
+          56.7655556
+        ]
+      },
+      "id": "node/4665273936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6928693517",
+        "amenity": "public_bath",
+        "bath:type": "lake",
+        "leisure": "bathing_place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1413004,
+          56.7177348
+        ]
+      },
+      "id": "node/6928693517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8929396087",
+        "access": "permissive",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1369099,
+          56.7254582
+        ]
+      },
+      "id": "node/8929396087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8929396096",
+        "amenity": "tent_ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.12267,
+          56.7155089
+        ]
+      },
+      "id": "node/8929396096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8945058038",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.026326,
+          56.7101497
+        ]
+      },
+      "id": "node/8945058038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8945058039",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0262603,
+          56.7102793
+        ]
+      },
+      "id": "node/8945058039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949399015",
+        "amenity": "bench",
+        "backrest": "no",
+        "check_date": "2024-08-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1364616,
+          56.7067802
+        ]
+      },
+      "id": "node/8949399015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949402519",
+        "access": "yes",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "portable": "no",
+        "toilets:handwashing": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1337545,
+          56.7067843
+        ]
+      },
+      "id": "node/8949402519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672255",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1417713,
+          56.7178556
+        ]
+      },
+      "id": "node/8972672255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672256",
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "name": "Parkering Vargaslätten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1422037,
+          56.7182442
+        ]
+      },
+      "id": "node/8972672256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672258",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1417556,
+          56.7178578
+        ]
+      },
+      "id": "node/8972672258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672259",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1418432,
+          56.7178467
+        ]
+      },
+      "id": "node/8972672259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8972672263",
+        "access": "yes",
+        "amenity": "parking",
+        "capacity:disabled": "6",
+        "fee": "no",
+        "name": "Reservparkering Danska Fall",
+        "operator": "Länsstyrelsen Halland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1191999,
+          56.7141568
+        ]
+      },
+      "id": "node/8972672263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9534826839",
+        "addr:country": "SE",
+        "addr:housenumber": "3",
+        "addr:street": "Gästgivarevägen",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "name": "Mountain Biking in Halmstad",
+        "phone": "+46723353081",
+        "shop": "bicycle",
+        "website": "https://mountainbikinginhalmstad.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1265133,
+          56.7213537
+        ]
+      },
+      "id": "node/9534826839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564977",
+        "amenity": "bench",
+        "backrest": "no",
+        "material": "wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0173174,
+          56.7108835
+        ]
+      },
+      "id": "node/9846564977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564978",
+        "amenity": "bench",
+        "backrest": "no",
+        "material": "wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0226096,
+          56.7094146
+        ]
+      },
+      "id": "node/9846564978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564979",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0212327,
+          56.7095851
+        ]
+      },
+      "id": "node/9846564979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564980",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0210563,
+          56.7096511
+        ]
+      },
+      "id": "node/9846564980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564981",
+        "amenity": "bench",
+        "backrest": "no",
+        "material": "wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0237838,
+          56.7100678
+        ]
+      },
+      "id": "node/9846564981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564983",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.026214,
+          56.7101203
+        ]
+      },
+      "id": "node/9846564983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564984",
+        "amenity": "bench",
+        "backrest": "no",
+        "material": "wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0194396,
+          56.7110328
+        ]
+      },
+      "id": "node/9846564984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564986",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0263772,
+          56.7099875
+        ]
+      },
+      "id": "node/9846564986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564987",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0262631,
+          56.710248
+        ]
+      },
+      "id": "node/9846564987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9846564988",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0261844,
+          56.7101332
+        ]
+      },
+      "id": "node/9846564988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9909442128",
+        "amenity": "bbq"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1335813,
+          56.7221624
+        ]
+      },
+      "id": "node/9909442128"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9911141261",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1308897,
+          56.7208441
+        ]
+      },
+      "id": "node/9911141261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9911141263",
+        "amenity": "parking",
+        "parking": "street_side"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1231774,
+          56.7192496
+        ]
+      },
+      "id": "node/9911141263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9911143502",
+        "amenity": "parking",
+        "lit": "yes",
+        "parking": "street_side"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1366417,
+          56.7253449
+        ]
+      },
+      "id": "node/9911143502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9913846678",
+        "amenity": "recycling",
+        "opening_hours": "24/7",
+        "operator": "FTI",
+        "recycling:batteries": "yes",
+        "recycling:cans": "yes",
+        "recycling:cardboard": "yes",
+        "recycling:glass": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:magazines": "yes",
+        "recycling:newspaper": "yes",
+        "recycling:paper": "yes",
+        "recycling:paper_packaging": "yes",
+        "recycling:plastic": "yes",
+        "recycling:plastic_bottles": "no",
+        "recycling:plastic_packaging": "yes",
+        "recycling:scrap_metal": "yes",
+        "recycling_type": "container",
+        "website": "https://fti.se/privatperson/hitta-atervinningsstation?avs=1502&muni=11380",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1241801,
+          56.7190738
+        ]
+      },
+      "id": "node/9913846678"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914384008",
+        "amenity": "parking",
+        "parking": "street_side"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1232427,
+          56.7193491
+        ]
+      },
+      "id": "node/9914384008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914430018",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1357421,
+          56.7242235
+        ]
+      },
+      "id": "node/9914430018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914430019",
+        "amenity": "bench",
+        "material": "wood"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1334331,
+          56.7241937
+        ]
+      },
+      "id": "node/9914430019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945257352",
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "2",
+        "capacity:disabled": "0",
+        "fee": "no",
+        "parking": "street_side",
+        "surface": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1842647,
+          56.7507359
+        ]
+      },
+      "id": "node/9945257352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945758054",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "street_side",
+        "surface": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1579278,
+          56.7231866
+        ]
+      },
+      "id": "node/9945758054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9945758056",
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "street_side",
+        "surface": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1440507,
+          56.7255745
+        ]
+      },
+      "id": "node/9945758056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657011283",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1239241,
+          56.7195536
+        ]
+      },
+      "id": "node/10657011283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657011284",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1238698,
+          56.7196464
+        ]
+      },
+      "id": "node/10657011284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657011285",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1237752,
+          56.7195909
+        ]
+      },
+      "id": "node/10657011285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10657133892",
+        "amenity": "shelter",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.144868,
+          56.7055459
+        ]
+      },
+      "id": "node/10657133892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10774116700",
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "rack"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1305297,
+          56.7207051
+        ]
+      },
+      "id": "node/10774116700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10774192663",
+        "amenity": "parking",
+        "parking": "street_side"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1366071,
+          56.725062
+        ]
+      },
+      "id": "node/10774192663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10804898618",
+        "amenity": "shelter",
+        "lit": "no",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1458046,
+          56.7241575
+        ]
+      },
+      "id": "node/10804898618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11007169865",
+        "amenity": "parking",
+        "parking": "street_side"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1279587,
+          56.7307807
+        ]
+      },
+      "id": "node/11007169865"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11010871937",
+        "amenity": "toilets",
+        "changing_table": "no",
+        "fee": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1452417,
+          56.7244347
+        ]
+      },
+      "id": "node/11010871937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045782649",
+        "amenity": "waste_disposal",
+        "waste": "trash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2296651,
+          56.7152586
+        ]
+      },
+      "id": "node/11045782649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11047689553",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1292649,
+          56.7088092
+        ]
+      },
+      "id": "node/11047689553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11047690906",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1317613,
+          56.7065647
+        ]
+      },
+      "id": "node/11047690906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11047694912",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1301874,
+          56.7081186
+        ]
+      },
+      "id": "node/11047694912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152754288",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0931557,
+          56.705313
+        ]
+      },
+      "id": "node/11152754288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152754289",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0914916,
+          56.70544
+        ]
+      },
+      "id": "node/11152754289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11152754291",
+        "amenity": "shelter",
+        "lit": "no",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0993574,
+          56.7053771
+        ]
+      },
+      "id": "node/11152754291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11158545533",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0934022,
+          56.7054826
+        ]
+      },
+      "id": "node/11158545533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11172324140",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.15103,
+          56.7307365
+        ]
+      },
+      "id": "node/11172324140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11172329262",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.15299,
+          56.732328
+        ]
+      },
+      "id": "node/11172329262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11548983282",
+        "amenity": "shelter",
+        "name": "Vindskydd Gyltige",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1821804,
+          56.7673425
+        ]
+      },
+      "id": "node/11548983282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11607848880",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1242289,
+          56.7188406
+        ]
+      },
+      "id": "node/11607848880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716338482",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2738113,
+          56.7129621
+        ]
+      },
+      "id": "node/11716338482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716357394",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2010191,
+          56.7146339
+        ]
+      },
+      "id": "node/11716357394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716357395",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2158592,
+          56.7147995
+        ]
+      },
+      "id": "node/11716357395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716357396",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2641627,
+          56.7122926
+        ]
+      },
+      "id": "node/11716357396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716360101",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.167766,
+          56.7214036
+        ]
+      },
+      "id": "node/11716360101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11716360102",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1677016,
+          56.7212877
+        ]
+      },
+      "id": "node/11716360102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11734764569",
+        "amenity": "charging_station",
+        "authentication:none": "yes",
+        "capacity": "4",
+        "socket:type2": "socket:type2",
+        "socket:type2:output": "socket:type2:22kW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1366379,
+          56.7254115
+        ]
+      },
+      "id": "node/11734764569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736361986",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2448361,
+          56.7477888
+        ]
+      },
+      "id": "node/11736361986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736416079",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2407632,
+          56.7505667
+        ]
+      },
+      "id": "node/11736416079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736436119",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2527749,
+          56.7384676
+        ]
+      },
+      "id": "node/11736436119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736481849",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2019213,
+          56.6875992
+        ]
+      },
+      "id": "node/11736481849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736493606",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2105756,
+          56.6924465
+        ]
+      },
+      "id": "node/11736493606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736496722",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1975733,
+          56.6813653
+        ]
+      },
+      "id": "node/11736496722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11748428838",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1441175,
+          56.6775212
+        ]
+      },
+      "id": "node/11748428838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11748434314",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1488661,
+          56.6752045
+        ]
+      },
+      "id": "node/11748434314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11748449483",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1418515,
+          56.6790649
+        ]
+      },
+      "id": "node/11748449483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755009810",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2707072,
+          56.7081208
+        ]
+      },
+      "id": "node/11755009810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755023956",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2634698,
+          56.7114101
+        ]
+      },
+      "id": "node/11755023956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755036563",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.26873,
+          56.7093092
+        ]
+      },
+      "id": "node/11755036563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755064258",
+        "amenity": "shelter",
+        "leisure": "bird_hide",
+        "shelter_type": "wildlife_hide"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2681778,
+          56.704287
+        ]
+      },
+      "id": "node/11755064258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755064259",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2679837,
+          56.7044568
+        ]
+      },
+      "id": "node/11755064259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755081558",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2650029,
+          56.7030624
+        ]
+      },
+      "id": "node/11755081558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755097189",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2691953,
+          56.7055494
+        ]
+      },
+      "id": "node/11755097189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755104931",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.259395,
+          56.7009537
+        ]
+      },
+      "id": "node/11755104931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755122485",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2525341,
+          56.7028133
+        ]
+      },
+      "id": "node/11755122485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755150565",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2592807,
+          56.7094009
+        ]
+      },
+      "id": "node/11755150565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755154739",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2537825,
+          56.7045884
+        ]
+      },
+      "id": "node/11755154739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755161837",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2570523,
+          56.7089464
+        ]
+      },
+      "id": "node/11755161837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755165663",
+        "amenity": "shelter",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2582444,
+          56.7069279
+        ]
+      },
+      "id": "node/11755165663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11755199340",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2576502,
+          56.7095614
+        ]
+      },
+      "id": "node/11755199340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11756372102",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2691878,
+          56.7025395
+        ]
+      },
+      "id": "node/11756372102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11756372103",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2765134,
+          56.7046038
+        ]
+      },
+      "id": "node/11756372103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11756372104",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2755766,
+          56.7081144
+        ]
+      },
+      "id": "node/11756372104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11770642536",
+        "amenity": "post_box"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1235395,
+          56.7192387
+        ]
+      },
+      "id": "node/11770642536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11773366713",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1033962,
+          56.7316453
+        ]
+      },
+      "id": "node/11773366713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11773433485",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1240472,
+          56.7379971
+        ]
+      },
+      "id": "node/11773433485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11779955924",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.100292,
+          56.7330576
+        ]
+      },
+      "id": "node/11779955924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11779972617",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1484431,
+          56.7492908
+        ]
+      },
+      "id": "node/11779972617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11779972618",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1425579,
+          56.7463514
+        ]
+      },
+      "id": "node/11779972618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11780301191",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1282721,
+          56.7351431
+        ]
+      },
+      "id": "node/11780301191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11780315399",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1654404,
+          56.7426913
+        ]
+      },
+      "id": "node/11780315399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795437004",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2691365,
+          56.7698674
+        ]
+      },
+      "id": "node/11795437004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795569567",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2165215,
+          56.6792835
+        ]
+      },
+      "id": "node/11795569567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795597310",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2155526,
+          56.6833677
+        ]
+      },
+      "id": "node/11795597310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795660947",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2163156,
+          56.6847315
+        ]
+      },
+      "id": "node/11795660947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11795664337",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2052219,
+          56.6982502
+        ]
+      },
+      "id": "node/11795664337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11802251501",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0902185,
+          56.7655595
+        ]
+      },
+      "id": "node/11802251501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11872381619",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1122477,
+          56.7056246
+        ]
+      },
+      "id": "node/11872381619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11874013868",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1163709,
+          56.6795306
+        ]
+      },
+      "id": "node/11874013868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11874015220",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1094389,
+          56.679276
+        ]
+      },
+      "id": "node/11874015220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11874029928",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1187905,
+          56.6790981
+        ]
+      },
+      "id": "node/11874029928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11876584293",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1195363,
+          56.7370764
+        ]
+      },
+      "id": "node/11876584293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11876622797",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1216164,
+          56.736067
+        ]
+      },
+      "id": "node/11876622797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11883428417",
+        "amenity": "bench",
+        "backrest": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1358954,
+          56.7249184
+        ]
+      },
+      "id": "node/11883428417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11883428418",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1352907,
+          56.7442135
+        ]
+      },
+      "id": "node/11883428418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891674116",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1428664,
+          56.7559404
+        ]
+      },
+      "id": "node/11891674116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891729899",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1425419,
+          56.7547448
+        ]
+      },
+      "id": "node/11891729899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891767562",
+        "amenity": "parking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1514965,
+          56.7577772
+        ]
+      },
+      "id": "node/11891767562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157845183",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1304742,
+          56.7078672
+        ]
+      },
+      "id": "node/12157845183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157868965",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.136865,
+          56.7063022
+        ]
+      },
+      "id": "node/12157868965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157869768",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1317636,
+          56.7066179
+        ]
+      },
+      "id": "node/12157869768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157874683",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1293893,
+          56.7088024
+        ]
+      },
+      "id": "node/12157874683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157878612",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1290755,
+          56.7087911
+        ]
+      },
+      "id": "node/12157878612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12157878712",
+        "amenity": "bench",
+        "backrest": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1296782,
+          56.7087166
+        ]
+      },
+      "id": "node/12157878712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12313503945",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1328458,
+          56.7215939
+        ]
+      },
+      "id": "node/12313503945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12313522175",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1328024,
+          56.7215374
+        ]
+      },
+      "id": "node/12313522175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325402616",
+        "amenity": "parking",
+        "capacity": "10",
+        "fee": "no",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "parking": "surface"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1229021,
+          56.7089262
+        ]
+      },
+      "id": "node/12325402616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325561118",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1684047,
+          56.6792181
+        ]
+      },
+      "id": "node/12325561118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325564496",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2176898,
+          56.7085883
+        ]
+      },
+      "id": "node/12325564496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325622490",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2160739,
+          56.7084028
+        ]
+      },
+      "id": "node/12325622490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325632520",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2033157,
+          56.7082813
+        ]
+      },
+      "id": "node/12325632520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325636932",
+        "amenity": "shelter",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2115957,
+          56.7085876
+        ]
+      },
+      "id": "node/12325636932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12325698781",
+        "amenity": "hunting_stand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1554896,
+          56.6961796
+        ]
+      },
+      "id": "node/12325698781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12348489551",
+        "amenity": "waste_basket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1242853,
+          56.7188928
+        ]
+      },
+      "id": "node/12348489551"
+    }
+  ]
+}

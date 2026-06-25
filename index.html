@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa miejscowości</title>
+
+  <!-- Twój plik CSS -->
+  <link rel="stylesheet" href="app.css">
+
+  <!-- Cesium: skrypt i style -->
+  <script src="./libs/cesium/Cesium.js"></script>
+  <link href="./libs/cesium/Widgets/widgets.css" rel="stylesheet">
+
+  <!-- Pannellum: style (CSS) -->
+  <link rel="stylesheet" href="https://unpkg.com/pannellum/build/pannellum.css">
+</head>
+<body>
+
+  <!-- Główny kontener na mapę Cesium -->
+  <div id="cesiumContainer"></div>
+
+  <!-- Modal / kontener do wyświetlania panoram Pannellum -->
+  <div id="pannellumModal" 
+       style="display: none; 
+              position: absolute; 
+              top: 0; 
+              left: 0; 
+              width: 100%; 
+              height: 100%; 
+              background: rgba(0,0,0,0.8); 
+              z-index: 9999;">
+
+    <!-- Przycisk zamykający modal -->
+    <button id="closePannellum" 
+            style="position: absolute; 
+                   top: 10px; 
+                   right: 10px; 
+                   z-index: 10000;">
+      Zamknij
+    </button>
+
+    <!-- Kontener, w którym biblioteka Pannellum wyrenderuje panoramę -->
+    <div id="panoramaContainer" 
+         style="width: 50%; 
+                height: 50%; 
+                margin: 5% auto; 
+                border: 2px solid white;">
+    </div>
+
+  </div>
+
+  <!-- Pannellum: skrypt (JS) -->
+  <script src="https://unpkg.com/pannellum/build/pannellum.js"></script>
+
+  <!-- Twój główny skrypt JS z logiką Cesium i obsługą Pannellum -->
+  <script src="app.js"></script>
+</body>
+</html>
