@@ -4,6 +4,7 @@
 // - no Cesium World Terrain
 // - no OSM 3D Buildings
 // - local 3D Tiles from ./dane/3D/3dtiles-cesium-07/tileset.json
+// - optional Cesium Ion token loaded from ./secrets/cesium_ion_token.txt or ./secrets/token1.txt
 
 const LOCAL_TILESET_URL = "./dane/3D/3dtiles-cesium-07/tileset.json";
 
@@ -12,6 +13,11 @@ const START_LON = 12.079962;
 const START_HEIGHT = 650;
 
 const LOCAL_TILESET_HEIGHT_OFFSET_METERS = 0;
+
+const CESIUM_TOKEN_FILES = [
+  "./secrets/cesium_ion_token.txt",
+  "./secrets/token1.txt"
+];
 
 const viewerOptions = {
   timeline: false,
@@ -39,6 +45,33 @@ const categoryTypesMap = {
   tourism: new Set(),
   foto: new Set()
 };
+
+async function loadOptionalCesiumIonToken() {
+  for (const tokenFile of CESIUM_TOKEN_FILES) {
+    try {
+      const response = await fetch(tokenFile, {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        continue;
+      }
+
+      const token = (await response.text()).trim();
+
+      if (token.length > 0) {
+        Cesium.Ion.defaultAccessToken = token;
+        console.log(`Cesium Ion token loaded from ${tokenFile}`);
+        return true;
+      }
+    } catch (error) {
+      // Missing local token file is acceptable in sandbox mode.
+    }
+  }
+
+  console.warn("No local Cesium Ion token file found. Continuing without Ion token.");
+  return false;
+}
 
 function getOrCreateStatusPanel() {
   let panel = document.getElementById("tilesetStatus");
@@ -191,6 +224,8 @@ async function loadLocalTileset() {
 
 async function initializeViewer() {
   try {
+    await loadOptionalCesiumIonToken();
+
     viewer = new Cesium.Viewer("cesiumContainer", {
       baseLayer: false,
       terrainProvider: new Cesium.EllipsoidTerrainProvider(),

@@ -28,3 +28,4 @@ temp/
 *.bak
 *.backup
 /dane/3D
+/secrets
